@@ -1,0 +1,4 @@
+<launch>
+    <!-- cmd_vel mqtt bridge -->
+    <node name="mqtt_bridge" pkg="cmd_vel_mqtt" type="cmd_vel_pub_mqtt.py" output="screen" />
+</launch>
